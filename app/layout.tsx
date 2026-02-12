@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ErrorWrapper } from "./error-wrapper";
 
+
+/* the below code is for global error handling
+<ErrorWrapper>
+        {children}
+        </ErrorWrapper>
+
+*/
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,10 +32,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+        <header style={{backgroundColor:"lightblue", padding:"1rem"}}>
+     <p>Header</p>
+        </header>
+        {/* <ErrorWrapper>
         {children}
+        </ErrorWrapper> */}
+        {children}
+        <footer style={{backgroundColor:"ghostwhite", padding:"1rem"}}>
+          <p>Footer</p>
+        </footer>
       </body>
     </html>
   );
