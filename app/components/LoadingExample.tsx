@@ -13,7 +13,7 @@ and its nested childern with in a react suspense boundary.
 
 loading.tsx file benefits:-
 1. It gives users immediate feedback when they navigate somewhere new. This makes your app 
-feel snappy and responsive, and users know thei click actually did something.
+feel snappy and responsive, and users know their click actually did something.
 2. Next.js keeps shared layouts interactive while new content loads users can still use things like 
 navigation menus or sidebars even if the main content isn't ready yet
 */

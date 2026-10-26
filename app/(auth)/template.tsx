@@ -32,7 +32,7 @@ export default function AuthLayout({children}: {children: React.ReactNode}){
             </div>
             {navLinks.map((link)=>{
                 const isActive = pathName === link.href || (pathName.startsWith(link.href) &&
-            link.href !== "/")
+            link.href !== "/");
                 return (
                     <Link 
                     className={isActive ? "font-bold mr-4": "text-blue-500 mr-4"}
