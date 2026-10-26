@@ -10,4 +10,4 @@ Next.Js Route Handlers Part-2 Course Content:-
 9. Handling Global Errors  -- HandlingGlobalErrorsExample.tsx
 10. Parallel Routes -- ParallelRoutesExample.tsx
 11. Unmatched Routes -- UnmatchedRoutesExample.tsx
-12. Conditional Routest -- ConditionalRoutest.tsx
+12. Conditional Routes -- ConditionalRoutest.tsx
