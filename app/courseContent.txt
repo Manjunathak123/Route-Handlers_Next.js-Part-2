@@ -1,13 +1,13 @@
 Next.Js Route Handlers Part-2 Course Content:-
-1. Active Links - see ActiveLinksIntroduction.tsx
-2. Params and Search params -- see ParamsAndSearchParamsIntroduction.tsx
-3. Navigating Programatically -- see NavigatingProgramaticallyExample.tsx
-4. Temaplates -- see TemplatesExample.tsx
-5. Loading UI -- see LoadingExample.tsx
-6. Error Handling -- ErrorHandlingExample.tsx
-7. Recovering From Errors -- RecoveringFromErrors.tsx
-8. Handling Errors In NestedRoutes -- HandlingErrorsInNestedRoutes.tsx
-9. Handling Global Errors  -- HandlingGlobalErrorsExample.tsx
-10. Parallel Routes -- ParallelRoutesExample.tsx
-11. Unmatched Routes -- UnmatchedRoutesExample.tsx
-12. Conditional Routes -- ConditionalRoutest.tsx
+1. Active Links - see components/ActiveLinksIntroduction.tsx
+2. Params and Search params -- see components//ParamsAndSearchParamsIntroduction.tsx
+3. Navigating Programatically -- see components//NavigatingProgramaticallyExample.tsx
+4. Temaplates -- see components/TemplatesExample.tsx
+5. Loading UI -- see components/LoadingExample.tsx
+6. Error Handling -- components/ErrorHandlingExample.tsx
+7. Recovering From Errors -- components/RecoveringFromErrors.tsx
+8. Handling Errors In NestedRoutes -- components/HandlingErrorsInNestedRoutes.tsx
+9. Handling Global Errors  -- components/HandlingGlobalErrorsExample.tsx
+10. Parallel Routes -- components/ParallelRoutesExample.tsx
+11. Unmatched Routes -- components/UnmatchedRoutesExample.tsx
+12. Conditional Routes -- components/ConditionalRoutest.tsx
